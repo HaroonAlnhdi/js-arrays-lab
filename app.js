@@ -231,13 +231,13 @@ Exercise 13: Retrieve the Last Array
 Complete Exercise 13 in the space below:
 */
 
-const numArrays = [
+const NArr = [
 	[100, 5, 23],
 	[15, 21, 72, 9],
 	[45, 66],
 	[7, 81, 90]
  ];
- let numList = numArrays[numArrays.length-1];
+ let numList = NArr[NArr.length-1];
 
 console.log('Exercise 13 result:', numList);
 
@@ -253,7 +253,7 @@ Complete Exercise 14 in the space below:
 */
 
 
-let num=numArrays[2][1];
+let num=NArr[2][1];
 console.log('Exercise 14 result:', num);
 
 /*
@@ -269,13 +269,13 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 let total=0;
-for(let i=0;i<numArrays.length;i++)
+for(let i=0;i<NArr.length;i++)
     {
-        for(let j=0;j<numArrays[i].length;j++)
+        for(let j=0;j<NArr[i].length;j++)
             {
-                total+=numArrays[i][j];
+                total+=NArr[i][j];
             }
     }
 
 
-console.log('Exercise 15 result:\n', total);
+console.log('Exercise 15 result:', total);
